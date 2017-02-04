@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+<body>
+<!--在profile页面里分为四个页面点击脚部的三个li分别为三个页面  点击右上角的icon心形进入scail页面
+scail页面中有三个部分 点击任意图片出现遮罩层  点击绿色按钮遮罩层消失   点击右上角的icon时进入分类页面
+-->
+<div class="info">
+    <div class="header">
+        <ul>
+            <li ui-sref="msg">
+                <i class="icon">
+                    &#xe697;
+                </i>
+            </li>
+            <li>
+                <strong>
+                   Edit  Profile
+                </strong>
+            </li>
+            <li>
+                <i class="icon" ui-sref="scal">
+                    × √
+                </i>
+            </li>
+        </ul>
+    </div>
+    <dl class="modify-dl">
+        <dt><img src="./img/2/r.jpg" alt=""/></dt>
+        <dd>upload a profile photo</dd>
+    </dl>
+    <ul class="modify-ul">
+        <li>EMAIL<span><input type="text" value="pixelbuddha@info.com"/></span></li>
+        <li>PASSWORD<span><input type="password" value="wobuzhidao"/></span></li>
+        <li>REMEMBER ME<span>
+                <label class="toggle">
+                    <input type="checkbox" checked/>
+                    <div class="tack">
+                        <div class="handler"></div>
+                    </div>
+                </label>
+            </span></li>
+        <li>NAME<span>Edvard Korus</span></li>
+        <li>TITLE<span>Web Designer</span></li>
+        <li>LOCATION<span>Paris,France</span></li>
+        <li>FACEBOOK<span>
+                <label class="toggle">
+                    <input type="checkbox" />
+                    <div class="tack">
+                        <div class="handler"></div>
+                    </div>
+                </label>
+            </span></li>
+        <li>TWITTER<span>
+                <label class="toggle">
+                    <input type="checkbox" checked/>
+                    <div class="tack">
+                        <div class="handler"></div>
+                    </div>
+                </label>
+            </span></li>
+    </ul></div>
+</body>
+</html>
